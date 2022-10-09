@@ -9,37 +9,69 @@
         <style>
             body { 
                 text-align: center;
-                margin: 20px;
-                background-color:rgba(39, 152, 204, 0.397);
+                background: url(background.gif) center fixed;
+                background-size: cover;
             }
             h1 {
                 font-size: 40px;
                 color: rgb(0, 102, 255);
+                margin-top: 10px;
+                text-shadow: 2px 2px 5px blue;
+                animation: name 5s infinite;
+            }
+            @keyframes name {
+                0% {color:rgb(0, 102, 255);text-shadow: 2px 2px 5px blue}
+                25% {color:rgb(107, 107, 252);text-shadow: 2px 2px 5px rgb(107, 107, 252);}
+                50% {color: aqua;text-shadow: 2px 2px 5px aqua;}
+                75% {color: rgb(38, 0, 128);text-shadow: 2px 2px 5px rgb(38, 0, 128);}
+                100% {color: rgb(0, 102, 255);text-shadow: 2px 2px 5px blue;}
             }
             h2 {
-                font-size: 30px;
-                color:darkcyan;
+                font-size: 29px;
+                text-shadow: 2px 2px 5px gray;
             }
             p {
                 font-size: 18px;
+                border-style: solid;
+                border-radius: 100px;
+                margin-left: 500px;
+                margin-right: 500px;
+                padding: 10px;
+                animation: font 5s infinite;
             }
-            li {
+            @keyframes font {
+                0% {color:black;border-color:black;text-shadow: 2px 2px 5px black;border-radius: 100px;}
+                25% {color:red;border-color:red;text-shadow: 2px 2px 5px rgb(160, 1, 1);border-radius: 50px;}
+                50% {color:green;border-color: green;text-shadow: 2px 2px 5px rgb(1, 201, 1);border-radius: 10px;}
+                75% {color:purple;border-color:purple;text-shadow: 2px 2px 5px rgb(196, 5, 196);border-radius: 50px;}
+                100% {color:black;border-color:black;text-shadow: 2px 2px 5px black;border-radius: 100px;}
+            }
+            a {
+                font-size: 18px;
+            }
+            ul {
                 font-size: 18px;
                 list-style-type: square;
-                list-style-position: inside;
+                list-style-position:inside;
+                border-style:solid;
+                border-radius: 100px;
+                margin-left: 700px;
+                margin-right: 700px;
+                padding: 10px;
+                animation: font 5s infinite
             }
         </style>
     </head>
     <body>
         <h1>Adrian Guzman</h1>
         <a href="mailto:adrianguzman1@lewisu.edu">Email</a><br>
-        <p>Discord: ªdriªn#0514 </p><br>
+        <a>Discord: ªdriªn#0514 </a><br>
         <img src="swoldrian.png" alt="Swole Adrian" width="300">
         <h2>Introduction</h2>
         <p>My name is Adrian Guzman and I am 19 years old. 
-        I currently live in Joliet Illinois. My major is Physics with a concentration in Mechanical engineering and I have no minor.</p>
-        <p>I have my 2 parents and 2 older siblings. My sister actually graduated from Lewis and thats why I decided to come here.</p>
-        <p>I also have a dog, I am not 100% sure of his breed but he is some sort of poodle mix.</p>
+        I currently live in Joliet Illinois. My major is Physics with a concentration in Mechanical engineering and I have no minor.<br>
+        I have my 2 parents and 2 older siblings. My sister actually graduated from Lewis and thats why I decided to come here.<br>
+        I also have a dog, I am not 100% sure of his breed but he is some sort of poodle mix.</p>
         <h2>What I Hope to Learn in this Course</h2>
         <ul>
             <li>Some coding like this so I could just have fun with it</li>
@@ -47,11 +79,11 @@
             <li>Make a program that can calculate some things for me</li>
         </ul>
         <h2>My Favorite Hobby/Activity</h2>
-        <p>For a while now I have been interested in space and the ocean, so learning about that stuff is pretty cool.</p>
-        <p>I have joined the Astronomy club and we have only met once so far, but hopefully we meet more so I can see more planets.</p>
-        <p>I also play video games, right now the game I have the most time on is Rocket League.</p>
+        <p>For a while now I have been interested in space and the ocean, so learning about that stuff is pretty cool.<br>
+        I have joined the Astronomy club and we have only met once so far, but hopefully we meet more so I can see more planets.<br>
+        I also play video games, right now the game I have the most time on is Rocket League.</p>
         <h2>Fun Fact</h2>
-        <p>I played soccer when I was young, but quit to do Mexican folkloric dance. I regret it</p>
+        <p>I played soccer when I was young, but quit to do Mexican folkloric dance. I regret it.</p>
         <h2>Greatest Innovation</h2>
         <ul>
             <li><a href="https://webfoundation.org/about/vision/history-of-the-web/" target="_blank">The World Wide Web</a></li>
